@@ -40,7 +40,7 @@ public class Cat {
 			g2.setColor(Color.orange);
 		}
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
-		// Draw the eyes
+		// Draw the eye
 		g2.setColor(Color.green);
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
