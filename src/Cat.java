@@ -39,6 +39,16 @@ public class Cat {
 		if (color == "orange") {
 			g2.setColor(Color.orange);
 		}
+		if(color == "pink") {
+			g2.setColor(Color.pink);
+		}
+		if(color == "white") {
+			g2.setColor(Color.white);
+		}
+		if(color == "blue") {
+			g2.setColor(Color.blue);
+		}
+		
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.black);
